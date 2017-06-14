@@ -1,0 +1,118 @@
+EXPORTS
+	EFS_ACCESS_KEY DATA
+	EFS_SECRET_KEY DATA
+	EFS_RS_HOST DATA
+	EFS_UP_HOST DATA
+	EFS_API_HOST DATA
+
+    Efs_OK DATA
+    Efs_Discard DATA
+    Efs_NoAuth DATA
+	Efs_Rio_ST DATA
+
+	Efs_Free
+	Efs_Count_Inc
+	Efs_Count_Dec
+	Efs_String_Concat2
+	Efs_String_Concat3
+	Efs_String_Concat
+	Efs_String_Format
+	Efs_Memory_Encode
+	Efs_String_Encode
+	Efs_String_Decode
+    Efs_String_Dup
+    Efs_String_Join
+	Efs_PathEscape
+	Efs_QueryEscape
+	Efs_Seconds
+	Efs_FILE_Reader
+	Efs_FILE_Writer
+	Efs_Copy
+	Efs_Buffer_Init
+	Efs_Buffer_Reset
+	Efs_Buffer_AppendInt
+	Efs_Buffer_AppendUint
+	Efs_Buffer_AppendError
+	Efs_Buffer_AppendEncodedBinary
+	Efs_Buffer_AppendFormat
+	Efs_Buffer_AppendFormatV
+	Efs_Buffer_Cleanup
+	Efs_Buffer_CStr
+	Efs_Buffer_Format
+	Efs_Buffer_PutChar
+	Efs_Buffer_Len
+	Efs_Buffer_Write
+	Efs_Buffer_Fwrite
+	Efs_BufWriter
+	Efs_Buffer_Expand
+	Efs_Buffer_Commit
+	Efs_Format_Register
+	Efs_Null_Fwrite
+	Efs_BufReader
+	Efs_BufReaderAt
+	Efs_TeeReader
+	Efs_SectionReader
+	Efs_Crc32_Update
+	Efs_Crc32Writer
+	Efs_File_Open
+	Efs_File_Stat
+	Efs_File_Close
+	Efs_File_ReadAt
+	Efs_FileReaderAt
+	Efs_Logv
+	Efs_Stderr_Info
+	Efs_Stderr_Warn
+	Efs_Null_Log
+
+	Efs_Global_Init
+	Efs_Global_Cleanup
+	Efs_MacAuth_Init
+	Efs_MacAuth_Cleanup
+	Efs_Servend_Init
+	Efs_Servend_Cleanup
+	Efs_Mutex_Init
+	Efs_Mutex_Cleanup
+	Efs_Mutex_Lock
+	Efs_Mutex_Unlock
+	Efs_Json_GetString
+	Efs_Json_GetInt64
+    Efs_Json_Destroy
+    Efs_Json_GetInt
+	Efs_Client_InitEx
+	Efs_Client_Cleanup
+	Efs_Client_Call
+	Efs_Client_CallNoRet
+	Efs_Client_CallWithBinary
+	Efs_Client_CallWithBuffer
+	Efs_MacAuth
+	Efs_Mac_Sign
+	Efs_Mac_SignToken
+    Efs_Mac_Auth
+    Efs_Mac_Clone
+    Efs_Mac_Release
+	Efs_Client_InitNoAuth
+	Efs_Client_InitMacAuth
+    Efs_Client_SetLowSpeedLimit
+
+    Efs_FOP_Pfop
+
+	Efs_Io_PutFile
+	Efs_Io_PutBuffer
+
+	Efs_Rio_SetSettings
+	Efs_Rio_BlockCount
+	Efs_Rio_Put
+	Efs_Rio_PutFile
+
+	Efs_RS_PutPolicy_Token
+	Efs_RS_GetPolicy_MakeRequest
+	Efs_RS_MakeBaseUrl
+	Efs_RS_Stat
+	Efs_RS_Delete
+	Efs_RS_Copy
+	Efs_RS_Move
+
+	Efs_RS_BatchStat
+	Efs_RS_BatchDelete
+	Efs_RS_BatchMove
+	Efs_RS_BatchCopy
